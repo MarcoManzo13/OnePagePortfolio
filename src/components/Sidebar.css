@@ -1,0 +1,31 @@
+.sidebar {
+    right: 0;
+    bottom: 0;
+    max-height: 60vh;
+    top: 40vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+.icons {
+    margin-left: 40%;
+    transition-duration: 0.4s;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.verticalLine {
+    margin-left: 48%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-left: 3px solid #d8ddea;
+    height: 20%;
+}
+
+.buttonsSidebar {
+    border: none;
+}
+
+

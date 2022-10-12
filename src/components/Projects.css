@@ -1,0 +1,92 @@
+.projectsTitle {
+    color: #d8ddea;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 6vh;
+    font-weight: 500;
+    margin-top: 10vh;
+}
+
+.containerCarousel {
+    margin-left: 12%;
+    margin-top: 20vh;
+}
+
+#projects {
+    bottom: 0;
+}
+
+.imageCarousel {
+width: 60%;
+margin-bottom: 1%;
+transition-duration: 0.4s;
+opacity: 1;
+}
+
+.imageCarousel:hover {
+    opacity: 0.7;
+}
+
+.hide {
+    display: none;
+}
+
+.imageCarousel:hover +.hide {
+    display: block;
+    color: #d8ddea;
+    margin-bottom: 2vh;
+}
+
+
+.textCarrousel {
+    font-size: 3vh;
+    color: #d8ddea;
+    transition: all 0.3s ease;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.buttonProject {
+    border: none;
+}
+
+/* Mobile */
+
+.projectsSectionTitleMobile {
+    margin-top: 18vh;
+    color: #051615;
+    margin-bottom: 5%;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.containerCarouselMobile {
+    height: auto;
+    text-align: center;
+    margin-top: 2vh;
+    padding: 1em;
+}
+
+.projectsTitleMobile {
+    color: #d8ddea;
+    margin-bottom: 5%;
+    font-size: 3vh;
+}
+
+.buttonProjectMobile {
+    max-width: 80%;
+    border: none;
+}
+
+.imageCarouselMobile {
+    max-width: 100%;
+    margin-bottom: 3vh;
+    }
+
+.textCarrouselMobile {
+    color: #d8ddea;
+    font-size: 3vh;
+    margin-bottom: 5%;
+    max-width: 100%;
+    text-align: center;
+}

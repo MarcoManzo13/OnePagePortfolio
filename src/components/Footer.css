@@ -1,0 +1,23 @@
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+  
+.buttonsFooter {
+    border: none;
+}
+
+.footerText {
+    color: #d8ddea;
+    text-decoration: none;
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+
+.footerText:hover {
+    color: #d8ddea;
+    opacity: 0.7;
+}

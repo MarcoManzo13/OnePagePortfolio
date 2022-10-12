@@ -1,0 +1,26 @@
+.buttonsLogo {
+    margin-top: -1% !important;
+    margin-left: 25%;
+    border-radius: 1em;
+    color: #d8ddea;
+    font-weight: 500;
+    padding: 0.3em;
+    border: 2px solid #d8ddea;
+    font-size: 1.5em;
+    transition-duration: 0.4s;
+}
+
+.buttonsLogo:hover{
+    background-color: #78949f;
+    color: white;
+}
+
+.buttonsLogoMobile {
+    margin-top: 3% !important;
+    margin-left: 30%;
+    border-radius: 1em;
+    color: #d8ddea;
+    padding: 0.3em;
+    border: 2px solid #d8ddea;
+    font-size: 1.5em;
+}

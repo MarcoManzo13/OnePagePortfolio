@@ -1,0 +1,16 @@
+.headerMobile { 
+    border: 1em;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+    padding-top: 2%;
+}
+
+.headerDesktop { 
+    border: 1em;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+    padding-top: 2%;
+    position: fixed;
+  }

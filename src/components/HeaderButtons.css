@@ -1,0 +1,26 @@
+.buttons {
+    color: #78949f;
+    font-weight: 500;
+    border: none;
+    margin-right: 5%;
+    font-size: 3vh;
+    transition-duration: 0.4s;
+}
+
+.buttonResume {
+    border: solid;
+    border-radius: 0.5em;
+    color: #d8ddea;
+    font-size: 3vh;
+    font-weight: 500;
+    transition-duration: 0.4s;
+}
+
+.buttons:hover {
+    color: white;
+}
+
+.buttonResume:hover {
+    background-color: #d8ddea;
+    color: #78949f;
+}
