@@ -21,7 +21,7 @@ function Projects() {
                 />
               </a>
             </button>
-            <p className='textCarrouselMobile'>This is a Tic Tac Toe game written in C++ that uses coordinates to play</p>
+            <p className='textCarrouselMobile'>This is a Tic Tac Toe game written in Python that uses coordinates to play. It has a "map" that shows the players what to input to enter either a O or an X.</p>
           </div>
 
           <div className="col-12 containerCarouselMobile">
@@ -58,7 +58,7 @@ function Projects() {
                         <p className='hide'>Click the image to go to the Github repo!</p>
                       </a>
                     </button>
-                    <p className='textCarrousel'>This is a Tic Tac Toe game written in C++ that uses coordinates to play</p>
+                    <p className='textCarrousel'>This is a Tic Tac Toe game written in Python that uses coordinates to play. It has a "map" that shows the players what to input to enter either a O or an X. Check the update section for when I make a pretty GUI!</p>
                     
                     </Carousel.Item>
 
@@ -73,7 +73,7 @@ function Projects() {
                         <p className='hide'>Click the image to go to the Github repo!</p>
                       </a>
                     </button>
-                      <p className='textCarrousel'>This is an ATM simulator written in Python</p>
+                      <p className='textCarrousel'>This is an ATM simulator written in C++ which allows the user to get money, make withdrawals, deposits and get more money. Check the update section for when I make a pretty GUI! </p>
                     </Carousel.Item>
 
                 </Carousel>

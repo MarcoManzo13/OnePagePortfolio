@@ -24,7 +24,6 @@ export function Sidebar() {
                 <a href="mailto: marcomanzoruiz@gmail.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} size="3x" color='#0072c6' className='icons'/></a>
             </button>
         </div>
-        <div className="verticalLine"></div>
         </>
     )
 }

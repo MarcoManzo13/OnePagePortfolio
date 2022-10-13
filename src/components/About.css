@@ -18,33 +18,74 @@
 
 .info {
     margin-top: 2vh;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    color: #78949f;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.info2 {
+    margin-top: 2vh;
+    font-size: 2.5vh;
     color: #d8ddea;
     text-align: justify;
 }
 
+.bunda {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 
-.info2 {
-    margin-top: 2vh;
-    font-size: 3vh;
+.bundaText {
+    color: #d8ddea;
+    transition-duration: 0.4s;
+}
+
+.bundaText:hover {
     color: #78949f;
-    text-align: justify;
+}
+
+.importantText {
+    color: #d8ddea;
+    transition-duration: 0.4s;
+}
+
+.importantText:hover {
+    text-decoration: underline;
+}
+
+.containerLists {
+    padding: 1%;
+}
+
+.titleList {
+    font-size: 2.3vh;
+    color: #d8ddea;
+    text-align: center;
+}
+
+.listItem {
+    color: #78949f;
+    margin-bottom: 3%;
+}
+
+.listLanguage {
+    color: #d8ddea;
+    font-weight: 500;
+}
+
+.listLanguageDescription {
+    color: #78949f;
 }
 
 .foto {
     border-radius: 10em;
-    height: 60vh;
-    margin-top: 20vh;
+    height: 75vh;
+    margin-top: 15vh;
     margin-left: 10vh;
-    transition-duration: 0.4s;
-    opacity: 1;
     z-index: -1;
 }
-
-.foto:hover {
-    opacity: 0.7;
-}
-
 
 /** Mobile css */
 
