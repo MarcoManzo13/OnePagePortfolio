@@ -11,6 +11,7 @@ export function Sidebar() {
             <button className="buttonsSidebar">
                 <a href="https://www.linkedin.com/in/marcomanzoruiz/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="3x" color='#0072b1' className='icons'/></a>
             </button>
+            
         </div>
         <div className="verticalLine"></div>
         <div className="col-12">

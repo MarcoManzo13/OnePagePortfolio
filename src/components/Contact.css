@@ -20,22 +20,17 @@
 }
 
 .buttonsContact {
-    border: solid #d8ddea;
-    border-radius: 0.5em;
-    transition-duration: 0.4s;
+    border: none;
 }
 
 .contactContact {
+    border: solid #d8ddea;
+    border-radius: 0.5em;
+    transition-duration: 0.4s;
     color: #d8ddea;
     font-size: 3vh;
     text-decoration: none;
-    transition-duration: 0.1s;
     margin-top: 2vh;
-}
-
-.buttonsContact:hover {
-    background-color: #d8ddea;
-    color: #78949f;   
 }
 
 .contactContact:hover {

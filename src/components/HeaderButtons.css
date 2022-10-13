@@ -7,6 +7,10 @@
     transition-duration: 0.4s;
 }
 
+.buttonResumeB {
+    border: none;
+}
+
 .buttonResume {
     border: solid;
     border-radius: 0.5em;
@@ -14,6 +18,8 @@
     font-size: 3vh;
     font-weight: 500;
     transition-duration: 0.4s;
+    text-decoration: none;
+    padding: 5%;
 }
 
 .buttons:hover {
@@ -23,4 +29,5 @@
 .buttonResume:hover {
     background-color: #d8ddea;
     color: #78949f;
+    border: solid #d8ddea;
 }
