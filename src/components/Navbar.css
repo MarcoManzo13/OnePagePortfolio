@@ -94,10 +94,15 @@ nav {
 }
 
 .buttonsNavResume {
+    background-color: #78949f;
     border: solid;
     border-radius: 0.5em;
     color: #d8ddea;
-    background-color: #78949f;
-    color: #d8ddea;
     font-size: larger;
+    text-decoration: none;
+}
+
+.buttonsBNav {
+    border: none;
+    background-color: #78949f;
 }

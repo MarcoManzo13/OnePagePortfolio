@@ -36,10 +36,6 @@ const Navbar = () => {
         element.scrollIntoView({behavior: "smooth"});         
     }
 
-    function followLinkResume() {
-        console.log('Link followed Resume')       
-    }
-
     return(
         <div style={{width: '100%', height: '100vh'}}>
             <nav>
@@ -61,7 +57,7 @@ const Navbar = () => {
                     <button className='buttonsNav' onClick={() => followLinkUpdates()}>Updates</button>
                 </div>
                 <div className="col-12 about">
-                    <button className='buttonsNavResume' onClick={() => followLinkResume()}>Resume</button>
+                    <button className='buttonsBNav'><a className="buttonsNavResume" href="https://drive.google.com/file/d/1YMsZBTzO9f8n4zKXgZid74pF5y8aGo6z/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></button>
                 </div>
             </div>
         </div>

@@ -37,3 +37,21 @@
     background-color: #d8ddea;
     color: #78949f;
 }
+
+
+/* Mobile */
+
+.titleContactMobile {
+    font-size: 4vh;
+    font-weight: 500;
+    color: #d8ddea;
+    margin: 0;
+}
+
+.paragraphContactMobile {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 2.5vh;
+    color: #78949f;
+    margin-top: 2vh;
+}

@@ -81,7 +81,6 @@
     margin-top: 27vh;
     display: flex;
     flex-direction: column;
-    border: dotted;
     text-align: center;
     padding: 5%;
 }
@@ -129,7 +128,7 @@
     border: solid 0.3em #d8ddea;
     height: auto;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     justify-content: center;
     align-items: center;
     background-color: #0d2b33;

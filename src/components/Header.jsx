@@ -16,7 +16,7 @@ function Header(){
                 </div>
             </header>
         )     
-      }else {
+    }else {
         return(
             <header className='headerDesktop'>
                 <div className="row">
@@ -28,7 +28,7 @@ function Header(){
                     </div>
                 </div>
             </header>
-      )}
+    )}
 }
 
 export default Header;
