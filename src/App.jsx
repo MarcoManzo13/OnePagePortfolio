@@ -1,4 +1,5 @@
 import React/**, {useState, useEffect} */ from 'react';
+import { Helmet } from "react-helmet";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import Header from './components/Header';
@@ -14,7 +15,14 @@ function App() {
   return (
     <div className="App">
       <div className="background">
-
+      <Helmet>
+      <meta title='Marco Manzo'/>
+      <meta name='keywords' content='Developer, Marco, Manzo, Fullstack, Coding, Website, Frontend'/>
+      <meta
+      name="description"
+      content="Hello there, my name is Marco Manzo and this is my portfolio website. You can find information about me, my projects and contact me aswell. Hope you like it!"
+      />
+      </Helmet>
       <header>
       <Header/>
       </header>
