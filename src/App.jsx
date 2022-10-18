@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Helmet>
       <title>Marco Manzo</title>
-      console.log(<meta name='keywords' content='Developer, Marco, Manzo, Fullstack, Coding, Website, Frontend'/>)
+      <meta name='keywords' content='Developer, Marco, Manzo, Fullstack, Coding, Website, Frontend'/>
       <meta
       name="description"
       content="Hello there, my name is Marco Manzo and this is my portfolio website. You can find information about me, my projects and contact me aswell. Hope you like it!"
