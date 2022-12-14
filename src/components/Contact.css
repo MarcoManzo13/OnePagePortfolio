@@ -1,26 +1,48 @@
 .containerContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-top: 21vh;
-    padding: 2%;
+    position: relative;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
 }
 
 .titleContact {
     font-size: 6vh;
     font-weight: 500;
     color: #d8ddea;
-    margin: 0;
 }
 
+@media (max-width: 960px) {
+    .titleContact {
+        font-size: 4vh;
+        font-weight: 500;
+        color: #d8ddea;
+    }
+}
+
+
 .paragraphContact {
-    padding-right: 30%;
-    padding-left: 30%;
     font-size: 3vh;
     color: #78949f;
-    margin-top: 2vh;
+}
+
+@media (max-width: 960px) {
+    .paragraphContact {
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 2.5vh;
+        color: #78949f;
+    }
 }
 
 .buttonsContact {
     border: none;
+    margin-top: 3vh;
 }
 
 .contactContact {
@@ -30,28 +52,10 @@
     color: #d8ddea;
     font-size: 3vh;
     text-decoration: none;
-    margin-top: 2vh;
+    padding: 1vh;
 }
 
 .contactContact:hover {
     background-color: #d8ddea;
     color: #78949f;
-}
-
-
-/* Mobile */
-
-.titleContactMobile {
-    font-size: 4vh;
-    font-weight: 500;
-    color: #d8ddea;
-    margin: 0;
-}
-
-.paragraphContactMobile {
-    padding-right: 10%;
-    padding-left: 10%;
-    font-size: 2.5vh;
-    color: #78949f;
-    margin-top: 2vh;
 }

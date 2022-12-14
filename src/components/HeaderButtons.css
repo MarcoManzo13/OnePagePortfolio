@@ -1,10 +1,19 @@
+.headerButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+}
+
 .buttons {
     color: #78949f;
     font-weight: 500;
     border: none;
-    margin-right: 5%;
     font-size: 3vh;
     transition-duration: 0.4s;
+    position: relative;
 }
 
 .buttonResumeB {

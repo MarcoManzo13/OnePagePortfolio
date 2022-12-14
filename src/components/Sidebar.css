@@ -12,6 +12,17 @@
     align-items: center;
 }
 
+@media (max-width: 960px) {
+    .sidebar {
+        position: absolute;
+        height: 100vh;
+        padding-top: 40%;  
+        padding-left: 5%;
+        padding-right: 5%;
+        display: none;
+    }
+}
+
 .icons {
     transition-duration: 0.4s;
 }
@@ -25,8 +36,6 @@
     margin-bottom: 15%;
     border-left: 3px solid #d8ddea;
     height: 20%;
-    margin-left: 50%;
-    margin-right: 50%;
 }
 
 .buttonsSidebar {

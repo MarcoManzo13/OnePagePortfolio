@@ -3,32 +3,17 @@ import ConditionalMenu from './ConditionalMenu.jsx'
 import Logo from "./Logo";
 
 function Header(){
-    if (window.matchMedia("(max-width: 980px)").matches) {
-        return (
-            <header className='headerMobile'>
-                <div className="row">
-                    <div className="col-7">
-                        <Logo initial="M"/>
-                    </div>
-                    <div className="col-5">
-                        <ConditionalMenu />
-                    </div>
-                </div>
-            </header>
-        )     
-    }else {
-        return(
-            <header className='headerDesktop'>
-                <div className="row">
-                    <div className="col-7">
-                        <Logo initial="M"/>
-                    </div>
-                    <div className="col-5">
-                        <ConditionalMenu />
-                    </div>
-                </div>
-            </header>
-    )}
+    return(
+        <div className='row headerContainer'>
+            <div className="col-1"></div>
+            <div className="col-6 logoContainer">
+                <Logo initial="M"/>
+            </div>
+            <div className="col-5">
+                <ConditionalMenu />
+            </div>
+        </div>
+    )
 }
 
 export default Header;

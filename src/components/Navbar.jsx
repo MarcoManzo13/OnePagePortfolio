@@ -30,14 +30,8 @@ const Navbar = () => {
         var element = document.getElementById("projects");
         element.scrollIntoView({behavior: "smooth"});        
     }
-
-    function followLinkUpdates() {
-        var element = document.getElementById("updates");
-        element.scrollIntoView({behavior: "smooth"});         
-    }
-
     return(
-        <div style={{width: '100%', height: '100vh'}}>
+        <div>
             <nav>
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
@@ -54,9 +48,6 @@ const Navbar = () => {
                     <button className='buttonsNav' onClick={() => followLinkProjects()}>Projects</button>
                 </div>
                 <div className="col-12 about">
-                    <button className='buttonsNav' onClick={() => followLinkUpdates()}>Updates</button>
-                </div>
-                <div className="col-12 about">
                     <button className='buttonsBNav'><a className="buttonsNavResume" href="https://drive.google.com/file/d/1YMsZBTzO9f8n4zKXgZid74pF5y8aGo6z/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></button>
                 </div>
             </div>
@@ -64,4 +55,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

@@ -1,23 +1,27 @@
+.carrouselContainer{
+    width: 100%;
+    position: relative;
+    padding-top: 5vh;
+}
+
 .projectsTitle {
     color: #d8ddea;
     text-align: center;
-    margin-bottom: 1%;
     font-size: 6vh;
     font-weight: 500;
-    margin-top: 10vh;
 }
 
 .goToGithubRepo {
     color: #78949f;
     text-align: center;
-    margin-bottom: 3%;
     font-size: 3vh;
     font-weight: 500;
 }
 
-.containerCarousel {
-    margin: auto;
-    margin-top: 20vh;
+.Carousel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #projects {
@@ -25,70 +29,30 @@
 }
 
 .imageCarousel {
-width: 50%;
-margin-bottom: 1%;
-transition-duration: 0.4s;
-opacity: 1;
+    width: 50%;
+    margin-bottom: 1%;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
+@media (max-width: 960px) {
+    .imageCarousel {
+        width: 100%;
+    }
 }
 
 .imageCarousel:hover {
     opacity: 0.7;
 }
 
-
 .textCarrousel {
     font-size: 3vh;
     color: #d8ddea;
-    margin-left: 20%;
-    margin-right: 20%;
     transition: all 0.3s ease;
-    margin-bottom: 5%;
-    text-align: center;
+    margin: 5vh;
 }
 
 .buttonProject {
     border: none;
-    text-align: center;
     width: 100%;
-}
-
-/* Mobile */
-
-.projectsSectionTitleMobile {
-    margin-top: 18vh;
-    color: #051615;
-    margin-bottom: 5%;
-    font-size: 5vh;
-    text-align: center;
-}
-
-.containerCarouselMobile {
-    height: auto;
-    text-align: center;
-    margin-top: 2vh;
-    padding: 1em;
-}
-
-.projectsTitleMobile {
-    color: #d8ddea;
-    margin-bottom: 5%;
-    font-size: 3vh;
-}
-
-.buttonProjectMobile {
-    max-width: 80%;
-    border: none;
-}
-
-.imageCarouselMobile {
-    max-width: 100%;
-    margin-bottom: 3vh;
-    }
-
-.textCarrouselMobile {
-    color: #d8ddea;
-    font-size: 3vh;
-    margin-bottom: 5%;
-    max-width: 100%;
-    text-align: center;
 }
